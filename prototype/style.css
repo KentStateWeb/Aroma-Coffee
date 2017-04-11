@@ -1,0 +1,15 @@
+body {
+  max-width: 800px;
+  padding: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style:none;
+}
+
+div, li, header, footer {
+  border: 1px solid lightgray;
+  padding: .8em;
+  margin-bottom: 1em;
+}
