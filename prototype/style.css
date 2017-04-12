@@ -13,3 +13,23 @@ div, li, nav, footer {
   padding: .8em;
   margin-bottom: 1em;
 }
+
+svg{
+  width: 25%;
+}
+
+section{
+  position:relative;
+  width:640px;
+  margin:10px auto;
+}
+ul{
+  width:100%;
+}
+nav ul li{
+  display:inline-block;
+  list-style:none;
+  width:160px;
+  text-align:center;
+  font-family:Helvetica, sans-serif;
+  border: 1px dashed rgba(255,255,255, 0);
