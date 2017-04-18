@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-
-
 body {
   font-family: 'Helvetica';
   max-width: 1000px;
   padding: 1em;
   font-size: 16px;
-}
-
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
 }
 
 h1{
@@ -29,23 +20,32 @@ h2{
 h3{
   font-family: 'Helvetica';
   font-size: 18;
-  color: #6F6F6F;
-=======
-body {
-  padding: 1em;
-  font-family: Helvetica, sans-serif;
-}
+  color: #6F6F6F;}
 
 
-svg{
-  max-width: 20%;}
 
-section{
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: nowrap;
+    flex: 0 1 auto;
+  }
+
+.home {
+  width: 150px;}
+
+.social{
+      padding-right: 1em;}
+
+
+
+section {
   white-space: nowrap;
   position:relative;
   width:100%;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 nav ul li{
@@ -64,7 +64,6 @@ nav ul{
   border-top: 2px solid #e5e5e5;
   border-bottom: 2px solid #e5e5e5;
   margin-left: 0;
-
 }
 
 /* unvisited link */
@@ -89,10 +88,35 @@ nav a:hover {
 
 /* selected link */
 nav a:active {
-<<<<<<< HEAD
   color:black;
-=======
-    color: black;
->>>>>>> origin/master
->>>>>>> origin/master
+}
+
+footer{
+  margin-top: 70px;
+  padding-top: 20px;
+  border-top: 2px solid #e5e5e5;}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+  flex: 0 1 auto;
+}
+
+.logo svg{
+  width: 40%;}
+
+.logo{
+  padding-bottom: 50px;
+  margin-right:10px;
+}
+
+
+.social{
+    padding-right: 1em;
+  }
+
+.social p{
+  line-height: 1.5em;
 }
