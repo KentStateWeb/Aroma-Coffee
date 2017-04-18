@@ -1,0 +1,32 @@
+
+
+body {
+  font-family: 'Helvetica';
+  max-width: 1000px;
+  padding: 1em;
+  font-size: 16px;
+}
+
+div, section, main, aside, header, footer {
+  border: 1px solid lightgray;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+h1{
+  font-family: 'Helvetica';
+  color: #202020;
+  font-size: 24px;
+}
+
+h2{
+  font-family: 'Helvetica';
+  font-size: 22px;
+  color: #6F6F6F;
+}
+
+h3{
+  font-family: 'Helvetica';
+  font-size: 18;
+  color: #6F6F6F;
+}
