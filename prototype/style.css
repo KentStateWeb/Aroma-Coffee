@@ -106,7 +106,9 @@ nav li {
   flex-direction:column;
   color: white;
   background-color:rgba(20,20,20,0.5);
-  padding: 50px;
+  padding-top:120px;
+ padding-left: 80px;
+ padding-bottom: 80px;
 }
 
 .overlay h2{
