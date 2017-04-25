@@ -45,7 +45,7 @@ header{
 
 article {
       margin: 0 auto;
-      margin-bottom: 50px;
+      margin-bottom: 15px;
       width: 100%;
     }
 
@@ -73,7 +73,6 @@ nav li a {
       padding:  1em;
       text-decoration: none;
       color: black;
-      border-bottom: 0.2em solid #e5e5e5;
       background-color: white;
     }
 
@@ -90,12 +89,32 @@ nav li a:active{
 
 /* Main */
 
-.welcome{
+/* Main */
+
+
+.homeheader{
   background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
   background-size: cover;
   background-position: 100%;
-padding:100px;
-float:right;}
+}
+
+.overlay{
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  color: white;
+  background-color:rgba(20,20,20,0.5);
+  padding: 50px;
+}
+
+.overlay h2{
+  color:white;
+}
+
+.overlay a{
+  color: white;
+  text-decoration: none;}
+
 
 
 
