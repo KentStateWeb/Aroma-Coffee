@@ -68,22 +68,24 @@ nav li {
       text-align: center;
     }
 
-nav li a {
-      display: block;
-      padding:  1em;
-      text-decoration: none;
-      color: black;
-      background-color: white;
-    }
+    nav li {
+          display: table-cell;
+          margin: 0;
+          text-align: center;
+        }
 
-nav li a:hover {
-      border-bottom: 0.3em solid #ff7e79;
-      display: block;
-    }
+    nav li a {
+          display: block;
+          padding:  1em;
+          text-decoration: none;
+          color: black;
+          background-color: white;
+        }
 
-nav li a:active{
-      border-bottom: 0.3em solid #ff7e79;
-      display: block;}
+    nav li a:hover {
+          border-bottom: 0.4em solid #ff7e79;
+      color: #ff7e79;
+      font-weight: bold;}
 
 
 
