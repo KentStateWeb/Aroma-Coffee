@@ -91,9 +91,11 @@ nav li a:active{
 /* Main */
 
 .welcome{
-background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
-background-size: cover;
-background-position: 100%;}
+  background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
+  background-size: cover;
+  background-position: 100%;
+padding:100px;
+float:right;}
 
 
 
