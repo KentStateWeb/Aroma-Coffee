@@ -1,4 +1,4 @@
-/* Main */
+
 
 body {
   font-family: 'Helvetica';
@@ -26,6 +26,7 @@ h3{
   color: #6F6F6F;}
 
 
+
 /* Header */
 
 header{
@@ -33,15 +34,17 @@ header{
     flex-direction: row;
     justify-content: space-between;
     flex-flow: nowrap;
-    flex: 0 1 auto;}
+    flex: 0 1 auto;
+    padding-top:40px;
+    padding-right:40px;
+    padding-left: 40px;}
 
 .home {
   width: 150px;}
 
 .icons svg{
     width: 30px;
-    padding-left: 2em;
-    padding-right: 1em;}
+    padding-left: 2em;}
 
 
 /* Nav */
@@ -79,6 +82,8 @@ nav li a {
     padding:  .5em;
     text-decoration: none;
     color: black;
+    padding-left: 15px;
+    padding-right:15px;
     }
 
 nav li a:hover {
@@ -90,11 +95,11 @@ nav li a:hover {
 /* Main */
 
 
-
 .homeheader{
   background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
   background-size: cover;
   background-position: 100%;
+  box-sizing: border-box;
 
 }
 
@@ -107,6 +112,11 @@ nav li a:hover {
   padding-top:150px;
   padding-left: 80px;
   padding-bottom: 80px;
+  margin-left: auto;
+}
+
+.text{
+  width:50%;
 }
 
 .overlay h2{
@@ -141,7 +151,8 @@ nav li a:hover {
     border-color: #ff7e79;}
 
 
-
+.featured, .open, .upcoming{
+  padding-left: 80px;}
 
 
 
