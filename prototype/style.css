@@ -2,11 +2,9 @@
 
 body {
   font-family: 'Helvetica';
+  padding: 1em;
   font-size: 16px;
-  padding:0;
-  margin:0;
 }
-
 
 h1{
   font-family: 'Helvetica';
@@ -38,10 +36,8 @@ header{
 .home {
   width: 150px;}
 
-.icons svg{
-    width: 30px;
-    padding-left: 2em;
-    padding-right: 1em;}
+.social{
+      padding-right: 1em;}
 
 
 /* Nav */
@@ -49,7 +45,7 @@ header{
 
 article {
       margin: 0 auto;
-      margin-bottom: 15px;
+      margin-bottom: 50px;
       width: 100%;
     }
 
@@ -73,73 +69,31 @@ nav li {
     }
 
 nav li a {
-
-    display: inline-block;
-    border-bottom: 0.4em solid transparent;
-    padding:  .5em;
-    text-decoration: none;
-    color: black;
+      display: block;
+      padding:  1em;
+      text-decoration: none;
+      color: black;
+      border-bottom: 0.2em solid #e5e5e5;
+      background-color: white;
     }
 
 nav li a:hover {
-  border-bottom: 0.4em solid #ff7e79;
-  color: #ff7e79;}
+      border-bottom: 0.3em solid #ff7e79;
+      display: block;
+    }
+
+nav li a:active{
+      border-bottom: 0.3em solid #ff7e79;
+      display: block;}
 
 
 
 /* Main */
 
-
-
-.homeheader{
-  background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
-  background-size: cover;
-  background-position: 100%;
-
-}
-
-.overlay{
-  width: 100%;
-  display: flex;
-  flex-direction:column;
-  color: white;
-  background-color:rgba(20,20,20,0.6);
-  padding-top:150px;
-  padding-left: 80px;
-  padding-bottom: 80px;
-}
-
-.overlay h2{
-  color:white;
-  font-size:36px ;
-}
-
-.overlay a{
-  color: white;
-  text-decoration: none;
-  }
-
-.overlay p{
-  line-height: 1.5em;
-}
-
-.button{
-  border-style: solid;
-  border-color: #c1c1c1;
-  border-width: 3px;
-  background-color:rgba(0,0,0,0.1);
-  width: 120px;
-  text-align: center;
-  padding: 10px;
-  margin-top: 30px;
-
-}
-
-.button:hover {
-    background-color: #ff7e79;
-    color: #ffffff;
-    border-color: #ff7e79;}
-
+.welcome{
+background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
+background-size: cover;
+background-position: 100%;}
 
 
 
@@ -181,4 +135,58 @@ footer {
 
 .social p{
   line-height: 1.5em;
+}
+
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.flex-item {
+  background: black;
+  padding: 30px;
+  border: 20px;
+  margin: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 10px;
+  line-height: 350px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+}
+
+.flex-item:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,.4);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+.flex-item span {
+  z-index: 3;
+  position: relative;
+}
+
+.flex-item li{
+  padding: 10px;
 }
