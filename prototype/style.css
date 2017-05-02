@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Helvetica';
-  padding: 1em;
   font-size: 16px;
 }
 
@@ -40,14 +39,12 @@ header{
 .home {
   width: 150px;}
 
-<<<<<<< HEAD
 .social{
       padding-right: 1em;}
-=======
+
 .icons svg{
     width: 30px;
     padding-left: 2em;}
->>>>>>> origin/master
 
 
 /* Nav */
@@ -79,29 +76,19 @@ nav li {
     }
 
 nav li a {
-<<<<<<< HEAD
-      display: block;
-      padding:  1em;
-      text-decoration: none;
-      color: black;
-      border-bottom: 0.2em solid #e5e5e5;
-      background-color: white;
+  display: inline-block;
+  border-bottom: 0.4em solid transparent;
+  padding:  .5em;
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+  padding-right:15px;
     }
 
 nav li a:hover {
       border-bottom: 0.3em solid #ff7e79;
-      display: block;
     }
-=======
 
-    display: inline-block;
-    border-bottom: 0.4em solid transparent;
-    padding:  .5em;
-    text-decoration: none;
-    color: black;
-    padding-left: 15px;
-    padding-right:15px;
-    }
 
 nav li a:hover {
   border-bottom: 0.4em solid #ff7e79;
@@ -121,7 +108,6 @@ nav li a:hover {
 }
 
 .overlay{
-  width: 100%;
   display: flex;
   flex-direction:column;
   color: white;
@@ -129,26 +115,42 @@ nav li a:hover {
   padding-top:150px;
   padding-left: 80px;
   padding-bottom: 80px;
-  margin-left: auto;
+}
+
+.text h2{
+  color:white;
+  font-size:36px ;
+}
+
+.text a{
+  color: white;
+  text-decoration: none;
+  }
+
+.text p{
+  line-height: 1.5em;
 }
 
 .text{
   width:50%;
 }
->>>>>>> origin/master
 
-nav li a:active{
-      border-bottom: 0.3em solid #ff7e79;
-      display: block;}
+.button{
+  border-style: solid;
+  border-color: #c1c1c1;
+  border-width: 3px;
+  background-color:rgba(0,0,0,0.1);
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
 
+.button:hover {
+    background-color: #ff7e79;
+    color: #ffffff;
+    border-color: #ff7e79;}
 
-
-/* Main */
-
-.welcome{
-background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
-background-size: cover;
-background-position: 100%;}
 
 .featured, .open, .upcoming{
   padding-left: 80px;}
@@ -192,6 +194,9 @@ footer {
 .social p{
   line-height: 1.5em;
 }
+
+
+/* Menu Flexboxes */
 
 @import "compass/css3";
 
