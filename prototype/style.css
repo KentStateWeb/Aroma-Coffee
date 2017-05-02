@@ -124,19 +124,24 @@ nav .active-link>a{
   color: white;
   background-color:rgba(20,20,20,0.6);
   padding-top:150px;
-  padding-left: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 
+.welcome .text{
+  width: 50%;
+  margin: auto;
+  text-align: center;
 
-.text{
-  width:50%;
 }
 .button a{
   color: white;
   text-decoration: none;
   }
+
+
+.welcome .button{
+  margin: auto;}
 
 .button{
   border-style: solid;
@@ -170,6 +175,8 @@ nav .active-link>a{
 
 .featured .text{
   margin-left: auto;
+  width: 45%;
+  padding-top: 50px;
 }
 
 .featured h3{
@@ -207,6 +214,57 @@ nav .active-link>a{
 
 
 
+.third {
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            padding-top:80px;
+            padding-bottom: 80px;
+          }
+
+.open{
+  padding-left: 80px;
+}
+
+.cbusmap{
+  margin-left: auto;
+  padding-right: 80px;
+}
+
+
+
+
+.fourth{
+  background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
+  background-size: cover;
+  background-position: 100%;
+  box-sizing: border-box;
+}
+
+.upcoming{
+  display: flex;
+  flex-direction:column;
+  color: white;
+  background-color:rgba(20,20,20,0.6);
+  padding-top:80px;
+  padding-bottom: 80px;
+}
+
+.upcoming{
+  padding-left: 80px;
+}
+
+.fourth .text{
+    width: 40%;
+}
+
+.fourth span{
+  color: #ff7e79;
+
+}
+
+
+
 
 
 
@@ -216,9 +274,9 @@ nav .active-link>a{
 /* Footer */
 
 footer {
-  margin-top: 70px;
-  border-top: 2px solid #e5e5e5;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right:40px;
 }
 
 .container{
@@ -237,9 +295,6 @@ footer {
 }
 
 
-.social{
-    padding-right: 1em;
-  }
 
 .social p{
   line-height: 1.5em;
