@@ -281,9 +281,58 @@ nav .active-link>a{
 
 
 
+/*Events*/
+.eventlist {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
 
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+}
 
+.eee{
+  background: black;
+  padding: 30px;
+  border: 20px;
+  margin: 10px;
+  width: 250px;
+  height: 200px;
+  margin-top: 10px;
+  line-height: 350px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+}
+
+.eventlist:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,.4);
+  z-index: 1;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+.eventlistspan {
+  z-index: 3;
+  position: relative;
+}
+
+.eventlist li{
+  padding: 10px;
+}
 
 
 
@@ -319,7 +368,7 @@ footer {
 
 /* Menu Flexboxes */
 
-@import "compass/css3";
+
 
 .flex-container {
   padding: 0;
