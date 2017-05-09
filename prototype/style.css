@@ -277,8 +277,22 @@ nav .active-link>a{
 
 }
 
+/*GROW*/
+.grow img {
+  height: 300px;
+  width: 300px;
 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
 
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
 
 
 
@@ -336,7 +350,7 @@ footer {
 
 .flex-item {
   background: black;
-  padding: 30px;
+  padding: 5px;
   border: 20px;
   margin: 10px;
   width: 250px;
@@ -373,6 +387,18 @@ footer {
 
 
 *{box-sizing: border-box}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
 
 
 
