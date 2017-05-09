@@ -54,17 +54,12 @@ header{
 
 .social{
       padding-right: 1em;}
-<<<<<<< HEAD
-.icons svg{
-    width: 30px;
-    padding-left: 2em;}
-
-=======
 
 .icons svg{
     width: 30px;
     padding-left: 2em;}
->>>>>>> origin/master
+
+
 
 
 /* Nav */
@@ -95,50 +90,27 @@ nav li {
       text-align: center;
     }
 
-nav li a {
-<<<<<<< HEAD
-HEAD
-      display: block;
-      padding:  1em;
+    nav li a {
+      display: inline-block;
+      border-bottom: 0.3em solid transparent;
+      padding:  .5em;
       text-decoration: none;
       color: black;
-      border-bottom: 0.2em solid #e5e5e5;
-      background-color: white;
-=======
-  display: inline-block;
-  border-bottom: 0.3em solid transparent;
-  padding:  .5em;
-  text-decoration: none;
-  color: black;
-  padding-left: 15px;
-  padding-right:15px;
->>>>>>> origin/master
-    }
+      padding-left: 15px;
+      padding-right:15px;
+        }
 
 nav li a:hover {
       border-bottom: 0.3em solid #ff7e79;
       color: #ff7e79
     }
-<<<<<<< HEAD
 
-    display: inline-block;
-    border-bottom: 0.4em solid transparent;
-    padding:  .5em;
-    text-decoration: none;
-    color: black;
-    padding-left: 15px;
-    padding-right:15px;
-    }
 
-nav li a:hover {
-  border-bottom: 0.4em solid #ff7e79;
-  color: #ff7e79;}
 
-=======
 nav .active-link>a{
   border-bottom: 0.3em solid #ff7e79;
 }
->>>>>>> origin/master
+
 
 
 /* Main HOME */
@@ -217,13 +189,7 @@ nav .active-link>a{
   color:#ff7e79;
   border-bottom: 3px solid #ff7e79;
 }
-<<<<<<< HEAD
-nav li a:active{
-      border-bottom: 0.3em solid #ff7e79;
-      display: block;}
-=======
 
->>>>>>> origin/master
 
 .featured .button a{
   color: #ff7e79;
