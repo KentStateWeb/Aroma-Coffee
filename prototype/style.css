@@ -2,26 +2,38 @@
 
 body {
   font-family: 'Helvetica';
-  padding: 1em;
-  font-size: 16px;
+  padding:0;
+  margin:0;
 }
+
 
 h1{
   font-family: 'Helvetica';
-  color: #202020;
-  font-size: 24px;
+  font-size: 45px;
 }
 
 h2{
   font-family: 'Helvetica';
-  font-size: 22px;
-  color: #6F6F6F;
+  font-size: 24px;
 }
 
 h3{
+  color:#c1c1c1;
   font-family: 'Helvetica';
   font-size: 18px;
-  color: #6F6F6F;}
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 3px solid #c1c1c1;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom:0px;
+
+  }
+
+p{
+  font-size: 16px;
+  line-height: 1.5em;
+}
 
 
 
@@ -42,10 +54,17 @@ header{
 
 .social{
       padding-right: 1em;}
+<<<<<<< HEAD
 .icons svg{
     width: 30px;
     padding-left: 2em;}
 
+=======
+
+.icons svg{
+    width: 30px;
+    padding-left: 2em;}
+>>>>>>> origin/master
 
 
 /* Nav */
@@ -77,6 +96,7 @@ nav li {
     }
 
 nav li a {
+<<<<<<< HEAD
 HEAD
       display: block;
       padding:  1em;
@@ -84,12 +104,22 @@ HEAD
       color: black;
       border-bottom: 0.2em solid #e5e5e5;
       background-color: white;
+=======
+  display: inline-block;
+  border-bottom: 0.3em solid transparent;
+  padding:  .5em;
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+  padding-right:15px;
+>>>>>>> origin/master
     }
 
 nav li a:hover {
       border-bottom: 0.3em solid #ff7e79;
-      display: block;
+      color: #ff7e79
     }
+<<<<<<< HEAD
 
     display: inline-block;
     border-bottom: 0.4em solid transparent;
@@ -104,49 +134,176 @@ nav li a:hover {
   border-bottom: 0.4em solid #ff7e79;
   color: #ff7e79;}
 
+=======
+nav .active-link>a{
+  border-bottom: 0.3em solid #ff7e79;
+}
+>>>>>>> origin/master
 
 
-/* Main */
+/* Main HOME */
 
 
-.homeheader{
+.first{
   background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
   background-size: cover;
   background-position: 100%;
   box-sizing: border-box;
-
 }
 
-.overlay{
-  width: 100%;
+
+.welcome{
   display: flex;
   flex-direction:column;
   color: white;
   background-color:rgba(20,20,20,0.6);
   padding-top:150px;
-  padding-left: 80px;
-  padding-bottom: 80px;
-  margin-left: auto;
+  padding-bottom: 100px;
 }
 
-.text{
-  width:50%;
+
+.welcome .text{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+
 }
+.button a{
+  color: white;
+  text-decoration: none;
+  }
+
+
+.welcome .button{
+  margin: auto;}
+
+.button{
+  border-style: solid;
+  border-color: #c1c1c1;
+  border-width: 3px;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+
+}
+
+.button:hover {
+    background-color: #ff7e79;
+    color: #ffffff;
+    border-color: #ff7e79;}
+
+
+
+
+
+.featured{
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      background-color:#ffe0e0;
+      padding-top:80px;
+      padding-right: 80px;
+      padding-bottom: 80px;
+    }
+
+.featured .text{
+  margin-left: auto;
+  width: 45%;
+  padding-top: 50px;
+}
+
+.featured h3{
+  color:#ff7e79;
+  border-bottom: 3px solid #ff7e79;
+}
+<<<<<<< HEAD
 nav li a:active{
       border-bottom: 0.3em solid #ff7e79;
       display: block;}
+=======
+
+>>>>>>> origin/master
+
+.featured .button a{
+  color: #ff7e79;
+  text-decoration: none;
+  }
+
+.featured .button{
+  border-style: solid;
+  border-color: #ff7e79;
+  border-width: 3px;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  color: #ff7e79;
+  text-decoration: none;
+
+}
+
+.featured .button:hover {
+    background-color: #ff7e79;
+    border-color: #ff7e79;}
+
+.featured .button a:hover{
+      color: white;
+      text-decoration: none;
+      }
 
 
 
-/* Main */
+.third {
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            padding-top:80px;
+            padding-bottom: 80px;
+          }
 
-.welcome{
-background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
-background-size: cover;
-background-position: 100%;}
 
-.featured, .open, .upcoming{
-  padding-left: 80px;}
+.open .text{
+  padding-right: 20px;
+  padding-left: 80px;
+}
+
+.cbusmap{
+  margin-left: auto;
+  padding-right: 80px;
+}
+
+
+
+
+.fourth{
+  background-image: url(http://i61.photobucket.com/albums/h57/lesleytea/tumblr_nzye2vQGzr1uwtp3oo1_500_zps6yswibrt.jpg);
+  background-size: cover;
+  background-position: 100%;
+  box-sizing: border-box;
+}
+
+.upcoming{
+  display: flex;
+  flex-direction:column;
+  color: white;
+  background-color:rgba(20,20,20,0.6);
+  padding-top:80px;
+  padding-bottom: 80px;
+}
+
+.upcoming{
+  padding-left: 80px;
+}
+
+.fourth .text{
+    width: 40%;
+}
+
+.fourth span{
+  color: #ff7e79;
+
+}
 
 
 
@@ -159,9 +316,9 @@ background-position: 100%;}
 /* Footer */
 
 footer {
-  margin-top: 70px;
-  border-top: 2px solid #e5e5e5;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right:40px;
 }
 
 .container{
@@ -180,13 +337,13 @@ footer {
 }
 
 
-.social{
-    padding-right: 1em;
-  }
 
 .social p{
   line-height: 1.5em;
 }
+
+
+/* Menu Flexboxes */
 
 @import "compass/css3";
 
@@ -240,4 +397,63 @@ footer {
 
 .flex-item li{
   padding: 10px;
+}
+
+
+*{box-sizing: border-box}
+
+
+
+
+
+
+@media screen and (max-width:900px){
+
+  .welcome .text{
+    width: 75%;}
+
+  .featured{
+        display: flex;
+        flex-direction:column;
+        padding-right: 20px;
+      }
+
+  .featured .text{
+    margin-right: auto;
+    padding-left: 20px;
+    width: 80%;}
+
+.cbusmap{
+    margin-right: auto;
+    padding-left: 20px;
+    padding-top:40px;
+}
+
+}
+
+@media screen and (max-width:700px){
+
+h1{
+  font-size: 35px;
+}
+h2{
+font-size: 20px;
+}
+p{
+  font-size: 14px;
+}}
+
+@media screen and (max-width:500px){
+  .welcome .text{
+    width: 80%;}
+
+      .featured .text{
+        width: 90%;}
+
+
+      .featured img {
+          display: flex;
+          flex-direction: column;
+          width: 90%;
+          padding-right: 0px;}
 }
