@@ -249,6 +249,14 @@ nav .active-link>a{
   box-sizing: border-box;
 }
 
+
+
+.upcoming .text{
+  margin-right: auto;
+  width: 50%;
+  padding-left: 80px;
+}
+
 .upcoming{
   display: flex;
   flex-direction:column;
@@ -256,13 +264,8 @@ nav .active-link>a{
   background-color:rgba(20,20,20,0.6);
   padding-top:80px;
   padding-bottom: 80px;
-  padding-right: 0px;
 }
 
-.upcoming .text{
-  padding-left: 80px;
-  padding-right: 80px;
-}
 
 
 
@@ -277,22 +280,8 @@ nav .active-link>a{
 
 }
 
-/*GROW*/
-.grow img {
-  height: 300px;
-  width: 300px;
 
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
-}
 
-.grow img:hover {
-  width: 400px;
-  height: 400px;
-}
 
 
 
@@ -350,7 +339,7 @@ footer {
 
 .flex-item {
   background: black;
-  padding: 5px;
+  padding: 30px;
   border: 20px;
   margin: 10px;
   width: 250px;
@@ -388,20 +377,10 @@ footer {
 
 *{box-sizing: border-box}
 
-.hover01 figure img {
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover01 figure:hover img {
-	-webkit-transform: scale(1.3);
-	transform: scale(1.3);
-}
 
-
-
-
+@media screen and (max-width:1200px){
+  .upcoming .text{
+    width: 60%;}}
 
 
 
@@ -420,6 +399,9 @@ footer {
     margin-right: auto;
     padding-left: 20px;
     width: 80%;}
+
+    .upcoming .text{
+      width: 70%;}
 
 
 
