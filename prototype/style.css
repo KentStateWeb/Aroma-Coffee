@@ -252,17 +252,20 @@ nav .active-link>a{
 .upcoming{
   display: flex;
   flex-direction:column;
-  flex-wrap: wrap;
   color: white;
   background-color:rgba(20,20,20,0.6);
   padding-top:80px;
   padding-bottom: 80px;
-  padding-left: 80px;
+  padding-right: 0px;
 }
 
-.date{
-  text-align: center;
+.upcoming .text{
+  padding-left: 80px;
+  padding-right: 80px;
 }
+
+
+
 
 
 .fourth .text{
@@ -436,11 +439,14 @@ h3{
   .featured .text{
         width: 90%;}
 
-
-
   .open .text{
     width: 90%;
     padding: 40px;}
+
+  .upcoming .text {
+    width: 90%;
+    padding-left: 40px;
+  }
 
 
   .featured img {
