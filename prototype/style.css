@@ -339,7 +339,8 @@ nav .active-link>a{
 
 .eventlist p{
   color: black;
-  font-size: 22px;}
+  font-size: 22px;
+  padding-left:0px;}
 
   .eventlist h2{
     color: #ff7e79;
