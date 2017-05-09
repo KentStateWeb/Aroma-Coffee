@@ -289,6 +289,8 @@ nav .active-link>a{
 }
 
 
+
+
 .eventlist {
   padding: 0;
   margin: 0;
@@ -317,7 +319,6 @@ nav .active-link>a{
 
 .eee{
   background: black;
-  padding: 30px;
   border: 20px;
   margin: 10px;
   width: 300px;
@@ -333,7 +334,6 @@ nav .active-link>a{
 
 
 .eventlist li{
-  padding: 10px;
   padding-top:60px;
 }
 
