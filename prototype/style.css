@@ -380,6 +380,10 @@ footer {
 
 /* Menu Flexboxes */
 
+.menutop h2, p {
+  padding-left: 80px;
+}
+
 
 
 .flex-container {
@@ -395,11 +399,13 @@ footer {
 
   -webkit-flex-flow: row wrap;
   justify-content: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .flex-item {
   background: black;
-  padding: 30px;
+  padding: 0px;
   border: 20px;
   margin: 10px;
   width: 250px;
@@ -470,9 +476,26 @@ footer {
     padding-left: 40px;
     padding-right: 40px;
     padding-top:40px;
-}}
+}
+.flex-item {
+  width: 350px;
+  height: 300px;}
+
+  .flex-container {
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.menutop h2, p {
+  width: 80%;}}
 
 
+@media screen and (max-width:800px){
+.flex-item {
+  width: 450px;
+  height: 400px;}
+}
 
 @media screen and (max-width:700px){
 
@@ -495,6 +518,14 @@ h3{
   padding-top: 30px;
 
 }
+.flex-item {
+  width: 350px;
+  height: 300px;}
+
+
+
+
+
 
 }
 
@@ -518,7 +549,7 @@ h3{
 
   .eventlist {
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 40px;}
 
 
   .featured img {
@@ -527,4 +558,9 @@ h3{
           width: 90%;
           padding-right: 0px;}
 
-}
+
+
+.menutop h2, p {
+  padding-left: 40px;
+  width: 90%;
+}}
