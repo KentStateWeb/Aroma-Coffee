@@ -252,15 +252,18 @@ nav .active-link>a{
 .upcoming{
   display: flex;
   flex-direction:column;
+  flex-wrap: wrap;
   color: white;
   background-color:rgba(20,20,20,0.6);
   padding-top:80px;
   padding-bottom: 80px;
-}
-
-.upcoming{
   padding-left: 80px;
 }
+
+.date{
+  text-align: center;
+}
+
 
 .fourth .text{
     width: 40%;
@@ -373,7 +376,7 @@ footer {
 
 
 
-@media screen and (max-width:900px){
+@media screen and (max-width:950px){
 
   .welcome .text{
     width: 75%;}
@@ -389,13 +392,16 @@ footer {
     padding-left: 20px;
     width: 80%;}
 
+
+
 .cbusmap{
     margin-right: auto;
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top:40px;
-}
+}}
 
-}
+
 
 @media screen and (max-width:700px){
 
@@ -407,19 +413,40 @@ font-size: 20px;
 }
 p{
   font-size: 14px;
-}}
+}
+
+h3{
+  font-size: 16px;
+}
+.cbusmap{
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 30px;
+
+}
+
+}
+
+
 
 @media screen and (max-width:500px){
   .welcome .text{
     width: 80%;}
 
-      .featured .text{
+  .featured .text{
         width: 90%;}
 
 
-      .featured img {
+
+  .open .text{
+    width: 90%;
+    padding: 40px;}
+
+
+  .featured img {
           display: flex;
           flex-direction: column;
           width: 90%;
           padding-right: 0px;}
+
 }
