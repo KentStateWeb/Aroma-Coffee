@@ -40,14 +40,12 @@ header{
 .home {
   width: 150px;}
 
-<<<<<<< HEAD
 .social{
       padding-right: 1em;}
-=======
 .icons svg{
     width: 30px;
     padding-left: 2em;}
->>>>>>> origin/master
+
 
 
 /* Nav */
@@ -79,7 +77,7 @@ nav li {
     }
 
 nav li a {
-<<<<<<< HEAD
+HEAD
       display: block;
       padding:  1em;
       text-decoration: none;
@@ -92,7 +90,6 @@ nav li a:hover {
       border-bottom: 0.3em solid #ff7e79;
       display: block;
     }
-=======
 
     display: inline-block;
     border-bottom: 0.4em solid transparent;
@@ -135,8 +132,6 @@ nav li a:hover {
 .text{
   width:50%;
 }
->>>>>>> origin/master
-
 nav li a:active{
       border-bottom: 0.3em solid #ff7e79;
       display: block;}
